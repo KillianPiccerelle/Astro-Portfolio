@@ -7,12 +7,10 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/KillianPiccerelle',
+  linkedin: 'https://www.linkedin.com/in/killian-piccerelle/',
+  mail: 'mailto:killianpiccerelle@sfr.fr',
+  medium: 'https://medium.com/@killianpiccerelle',
 }
 
 // Global
@@ -50,34 +48,16 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Computer Science',
-    institution: 'Universidad Central',
-    link: 'https://www.ucentral.edu.co/',
-    date: '2019 - 2027',
-  },
-  {
-    title: '...',
-    institution: 'Platzi',
-    link: 'https://platzi.com/',
-    date: '2018 - 2022',
+    title: 'BTS Services et informations aux organisations (Solutions logiciel applicatives et métiers) ',
+    institution: 'Lycée Notre Dame Du Roc',
+    link: 'https://lycee-ndduroc.com/notre-dame-du-roc-campus/formations-post-bac/bts-services-informatiques-aux-organisations/',
+    date: '2019 - 2021',
   },
   {
     title: '...',
     institution: 'Udemy',
     link: 'https://www.udemy.com/',
     date: '2018 - 2022',
-  },
-  {
-    title: '...',
-    institution: 'Youtube',
-    link: 'https://www.youtube.com/@midulive',
-    date: '2018 - 2022',
-  },
-  {
-    title: 'Tattoo Artist',
-    institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
-    date: '2024 - 2025',
   },
 ]
 
