@@ -1,3 +1,4 @@
+import { link } from 'fs'
 import type { Site, Page } from './types'
 
 export const loaderAnimation = [
@@ -15,10 +16,10 @@ export const LINKS = {
 
 // Global
 export const SITE: Site = {
-  TITLE: 'Astro Sphere',
+  TITLE: 'Piccerelle Killian',
   DESCRIPTION:
-    'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn',
+    'Welcome to Piccerelle Killian, a portfolio.',
+  AUTHOR: 'Piccerelle Killian',
 }
 
 // Work Page
@@ -54,87 +55,51 @@ export const STUDIES = [
     date: '2019 - 2021',
   },
   {
-    title: '...',
-    institution: 'Udemy',
-    link: 'https://www.udemy.com/',
-    date: '2018 - 2022',
+    title: 'Baccalauréat Science et Technologie de l insdustrie et du développement durable | Lycée Les Iscles',
+    institution: 'Lycée Les Iscles',
+    link: '',
+    date: '2016 - 2019',
   },
 ]
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
-    end: 'Current',
+    company: 'Maître Coq',
+    location: 'Sainte-Hermine, France',
+    position: 'Interimaire',
+    link: '#',
+    start: 'Septembre 2023',
+    end: 'Août 2024',
     tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
+      'Agent de ligne industrielle',
+      'formation opérateur/approvisionneur puis gestionneur de flux d'+"'"+'atelier au conditionnement.',
     ],
   },
   {
-    company: 'Spot2',
-    location: 'Mexico City, Mexico',
-    position: 'Software Engineer',
-    link: 'https://spot2.mx/',
-    start: '2021',
-    end: 'Current',
+    company: 'YellowNetwork',
+    location: 'La Roche-sur-Yon',
+    position: 'Stagiaire',
+    link: 'https://www.yellow-network.com',
+    start: 'Mars 2021',
+    end: 'Aril 2021',
     tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
-      'Testing and debugging',
+      'Développement d'+"'"+'une application mobile en React Native. ',
+      'Développement d'+"'"+'une API web pour communiquer avec l'+"'"+'application mobile. ',
+      'Languages utilisés React native/CSS/SQL',
     ],
   },
   {
-    company: 'Imaginamos',
-    link: 'https://imaginamos.com/',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    end: '2021',
+    company: 'Lycée Notre Dame-du-Roc',
+    location: 'La Roche-sur-Yon',
+    position: 'Stagiaire',
+    link: 'https://www.yellow-network.com',
+    start: 'Juillet 2020',
+    end: 'Janvier 2021',
     tasks: [
-      'Development of the Imaginamos platform with the use of React, Redux, and Material UI',
-      'Work in ETB project with the use of React, Redux, and Material UI',
-    ],
-  },
-  {
-    company: 'INETUM',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    link: 'https://www.inetum.com/es',
-    end: '2021',
-    tasks: [
-      'Support in the QA area and bug review',
-      'Use of SCRUM methodology',
-      'Claro projects with the use of frameworks and libraries such as react and angular',
-      'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
-    ],
-  },
-  {
-    company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
+      'Développement d'+"'"+'une application web. ',
+      'Développement d'+"'"+'une API web pour communiquer avec l'+"'"+'application web. ',
+      'Projet visant a la rédaction de dossier et de portoflios de connaissance pour le lycée. ',
+      'Languages utilisés PHP/LARAVEL/HTML/CSS/SQL',
     ],
   },
 ]
