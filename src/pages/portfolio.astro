@@ -35,7 +35,8 @@ const entries = await contentfulClient.getEntries<Project>({})
     </TopLayout>
     <BottomLayout>
       <div class="flex w-full flex-wrap justify-center gap-2">
-        {
+        <img src="/under_construction.svg" alt="under construction" class="mb-8 size-64" />
+        <!-- {
           entries.items.map((entry: any) => (
           console.log(entry.fields.repository),
             <ProjectCard
@@ -50,6 +51,7 @@ const entries = await contentfulClient.getEntries<Project>({})
             />
           ))
         }
+        -->
       </div>
     </BottomLayout>
   </main>
