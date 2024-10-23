@@ -12,9 +12,9 @@ interface Project {
   contentTypeId: 'Projects'
   fields: {
     name: EntryFieldTypes.Text
-    img: EntryFieldTypes.AssetLink
+    image: EntryFieldTypes.AssetLink
     website: EntryFieldTypes.EntryResourceLink<any>
-    repositorio: EntryFieldTypes.EntryResourceLink<any>
+    repository: EntryFieldTypes.EntryResourceLink<any>
   }
 }
 
@@ -37,13 +37,15 @@ const entries = await contentfulClient.getEntries<Project>({})
       <div class="flex w-full flex-wrap justify-center gap-2">
         {
           entries.items.map((entry: any) => (
+          console.log(entry.fields.repository),
             <ProjectCard
               key={entry?.sys?.id}
               href={entry?.fields?.website}
               heading={entry?.fields?.name}
               subheading={entry?.fields?.description}
-              imagePath={entry?.fields?.img?.fields?.file.url}
-              altText={entry?.fields?.img?.fields.title}
+              imagePath={entry?.fields?.image?.fields?.file.url}
+              repositoryPath={entry?.fields?.repository}
+              altText={entry?.fields?.image?.fields.title}
               class="w-full sm:w-2/5"
             />
           ))

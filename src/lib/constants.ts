@@ -57,7 +57,7 @@ export const STUDIES = [
   {
     title: 'Baccalauréat Science et Technologie de l insdustrie et du développement durable | Lycée Les Iscles',
     institution: 'Lycée Les Iscles',
-    link: '',
+    link: 'https://www.site.ac-aix-marseille.fr/lyc-les-iscles/spip/',
     date: '2016 - 2019',
   },
 ]
@@ -67,7 +67,7 @@ export const EXPERIENCE = [
     company: 'Maître Coq',
     location: 'Sainte-Hermine, France',
     position: 'Interimaire',
-    link: '#',
+    link: 'https://www.maitrecoq.fr',
     start: 'Septembre 2023',
     end: 'Août 2024',
     tasks: [
