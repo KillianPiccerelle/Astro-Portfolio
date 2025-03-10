@@ -49,13 +49,13 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'BTS Services et informations aux organisations (Solutions logiciel applicatives et métiers) ',
+    title: 'BTS SIO (SLAM) | Lycée Notre Dame Du Roc ',
     institution: 'Lycée Notre Dame Du Roc',
     link: 'https://lycee-ndduroc.com/notre-dame-du-roc-campus/formations-post-bac/bts-services-informatiques-aux-organisations/',
     date: '2019 - 2021',
   },
   {
-    title: 'Baccalauréat Science et Technologie de l insdustrie et du développement durable | Lycée Les Iscles',
+    title: 'BAC STI2D | Lycée Les Iscles',
     institution: 'Lycée Les Iscles',
     link: 'https://www.site.ac-aix-marseille.fr/lyc-les-iscles/spip/',
     date: '2016 - 2019',
@@ -72,7 +72,7 @@ export const EXPERIENCE = [
     end: 'Août 2024',
     tasks: [
       'Agent de ligne industrielle',
-      'formation opérateur/approvisionneur puis gestionneur de flux d'+"'"+'atelier au conditionnement.',
+      ' formation opérateur/approvisionneur puis gestionneur de flux d'+"'"+'atelier au conditionnement.',
     ],
   },
   {
