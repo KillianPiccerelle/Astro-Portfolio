@@ -1,4 +1,3 @@
-import { link } from 'fs'
 import type { Site, Page } from './types'
 
 export const loaderAnimation = [
