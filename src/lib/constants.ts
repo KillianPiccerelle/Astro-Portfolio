@@ -48,6 +48,18 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
+    title: 'IA Générative & Chatbot IA ',
+    institution: 'Udemy',
+    link: 'https://www.udemy.com/certificate/UC-0ee604a9-146a-49ce-825b-0ff19c6905ac/',
+    date: '2025',
+  },
+  {
+    title: 'Javascript Formation ',
+    institution: 'Udemy',
+    link: 'https://www.udemy.com/certificate/UC-677e3d45-45c7-45dc-9373-3c0cca182117/',
+    date: '2022',
+  },
+  {
     title: 'BTS SIO (SLAM) | Lycée Notre Dame Du Roc ',
     institution: 'Lycée Notre Dame Du Roc',
     link: 'https://lycee-ndduroc.com/notre-dame-du-roc-campus/formations-post-bac/bts-services-informatiques-aux-organisations/',
